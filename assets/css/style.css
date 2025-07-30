@@ -1,7 +1,7 @@
 .site-header {
   display: flex;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem;
   gap: 2rem;
 }
 
@@ -79,5 +79,14 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 10%;
+}
+
+main {
+  max-width: 1000px;     /* increase this value to make it wider */
+  margin: 2rem auto;     /* center it horizontally and give vertical spacing */
+  padding: 0 2rem;       /* padding inside so text doesn’t stick to edges */
+  line-height: 1.6;      /* improves readability */
+  font-size: 1.1rem;     /* optional: slightly bigger font */
+  font-family: monospace; /* or your desired font */
 }
