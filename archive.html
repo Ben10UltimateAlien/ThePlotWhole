@@ -1,0 +1,17 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+---
+
+<h1>Archive</h1>
+
+{% for post in site.posts %}
+  <article>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p><small>{{ post.date | date: "%Y-%m-%d" }}</small></p>
+    <p>{{ post.excerpt }}</p>
+    <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
+    <hr>
+  </article>
+{% endfor %}
