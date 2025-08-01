@@ -36,9 +36,7 @@
       <a href="{{ '/about' | relative_url }}">About</a>
     </nav>
 
-    <p style="margin: 0;">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
- 
-    <nav class="site-nav" style="
+      <nav class="site-nav" style="
       padding-left: 1rem;
       display: flex;
       align-items: right;
@@ -53,6 +51,8 @@
         {% endfor %}
       </select>
     </nav>
+ 
+    <p style="margin: 0;">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
  
   </div>  
 </footer>
