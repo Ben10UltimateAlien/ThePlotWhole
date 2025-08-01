@@ -31,6 +31,19 @@
       display: flex;
       align-items: center;
     ">
+      <a href="{{ '/archive' | relative_url }}" style="margin-left: 1rem;">Archive</a>
+      <span style="margin: 0 0.5rem;">|</span>
+      <a href="{{ '/about' | relative_url }}">About</a>
+    </nav>
+
+    <p style="margin: 0;">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </div>
+
+      <nav class="site-nav" style="
+      padding-left: 1rem;
+      display: flex;
+      align-items: center;
+    ">
       <select onchange="if(this.value) window.location.href=this.value">
         <option value="">Categories</option>
         {% assign all_categories = site.categories | sort %}
@@ -40,12 +53,7 @@
           </option>
         {% endfor %}
       </select>
-
-      <a href="{{ '/archive' | relative_url }}" style="margin-left: 1rem;">Archive</a>
-      <span style="margin: 0 0.5rem;">|</span>
-      <a href="{{ '/about' | relative_url }}">About</a>
     </nav>
 
-    <p style="margin: 0;">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
-  </div>
+  
 </footer>
