@@ -4,15 +4,19 @@ title:  "2025 Summer Season"
 date:   2025-07-30 12:31:54 +0100
 categories: seasonal
 ---
-This is still no the definitive order, as I haven't watched all the shows yet.
+I'm not usually watching seasonals, and when I do it's not always while they are airing.
+This is still not the definitive order, as I haven't watched all the shows yet.
 
-Watching
+**Watching**
 [Dandadan 2nd Season](https://myanimelist.net/anime/60543/Dandadan_2nd_Season)
 [Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (※Muri ja Nakatta!?)](https://myanimelist.net/anime/60326/Watashi_ga_Koibito_ni_Nareru_Wake_Nai_jan_Muri_Muri_%E2%80%BBMuri_ja_Nakatta)
 [Ame to Kimi to](https://myanimelist.net/anime/59619/Ame_to_Kimi_to)
 [City The Animation](https://myanimelist.net/anime/59898/City_The_Animation)
 
-To Watch
+[Kaoru Hana wa Rin to Saku](https://myanimelist.net/anime/59845/Kaoru_Hana_wa_Rin_to_Saku)
+This show is definetly pulling on my heart strings. Everyone is very sweet and I'm here for the sap.
+
+**To Watch**
 [Kaijuu 8-gou 2nd Season](https://myanimelist.net/anime/59177/Kaijuu_8-gou_2nd_Season)
 [Gachiakuta](https://myanimelist.net/anime/59062/Gachiakuta)
 [Hikaru ga Shinda Natsu](https://myanimelist.net/anime/58913/Hikaru_ga_Shinda_Natsu)
@@ -32,8 +36,9 @@ Zutaboro Reijou wa Ane no Moto Konyakusha ni Dekiai sareru](https://myanimelist.
 [Ginga Tokkyuu Milky☆Subway](https://myanimelist.net/anime/61274/Ginga_Tokkyuu_Milky%E2%98%86Subway)
 [Utagoe wa Mille-Feuille](https://myanimelist.net/anime/55689/Utagoe_wa_Mille-Feuille)
 
-Dropped
+**Dropped**
 [Nyaight of the Living Cat](https://myanimelist.net/anime/58197/Nyaight_of_the_Living_Cat)
+The premise seemed interesting but when I watched the first episode I thought it was pretty boring. Nothing much called my attention and I was just zoning out whole time.
 
 
 
