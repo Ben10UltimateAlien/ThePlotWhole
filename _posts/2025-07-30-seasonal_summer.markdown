@@ -7,7 +7,7 @@ categories: seasonal
 I'm not usually watching seasonals, and when I do it's not always while they are airing.
 This is still not the definitive order, as I haven't watched all the shows yet.
 
-# Watching
+Watching
 [Dandadan 2nd Season](https://myanimelist.net/anime/60543/Dandadan_2nd_Season)
 
 ### [Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (※Muri ja Nakatta!?)](https://myanimelist.net/anime/60326/Watashi_ga_Koibito_ni_Nareru_Wake_Nai_jan_Muri_Muri_%E2%80%BBMuri_ja_Nakatta)
