@@ -1,7 +1,11 @@
 .site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 2rem;
   gap: 2rem;
 }
 
