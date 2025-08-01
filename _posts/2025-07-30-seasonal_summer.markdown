@@ -5,7 +5,7 @@ date:   2025-07-30 12:31:54 +0100
 categories: seasonal
 ---
 I'm not usually watching seasonals, and when I do it's not always while they are airing.
-This is still not the definitive order, as I haven't watched all the shows yet.
+This is still not the definitive order, as I haven't watched all the shows yet, and will be updating this as go through all of the series in this list.
 
 # Watching
 
