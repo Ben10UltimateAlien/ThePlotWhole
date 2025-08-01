@@ -5,8 +5,8 @@
     <a href="https://myanimelist.net/profile/Inconum" target="_blank" rel="noopener noreferrer">MyAnimeList</a>
   </div>
 
-  <div class="footer-right" style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.5rem;">
-    <nav class="site-nav" style="padding-left: 1rem; display: flex; align-items: center;">
+  <div class="footer-right" style="display: flex; flex-direction: column; flex-grow: 1; margin-left: 2rem;">
+    <nav class="site-nav" style="display: flex; align-items: center; justify-content: flex-start;">
       <select onchange="if(this.value) window.location.href=this.value">
         <option value="">Categories</option>
         {% assign all_categories = site.categories | sort %}
@@ -22,6 +22,6 @@
       <a href="{{ '/about' | relative_url }}">About</a>
     </nav>
 
-    <p style="margin: 0;">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    <p style="margin: 0; text-align: right; width: 100%;">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
   </div>
 </footer>
