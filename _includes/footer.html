@@ -8,5 +8,19 @@
   <div class="footer-right">
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
   </div>
+ <nav class="site-nav" style="padding-right: 1rem;">
+    <select onchange="if(this.value) window.location.href=this.value">
+      <option value="">Categories</option>
+      {% assign all_categories = site.categories | sort %}
+      {% for category in all_categories %}
+        <option value="{{ '/categories/' | append: category[0] | relative_url }}">
+          {{ category[0] | capitalize }} ({{ category[1].size }})
+        </option>
+      {% endfor %}
+    </select>
 
+    <a href="{{ '/archive' | relative_url }}">Archive</a>
+    <span> | </span>
+    <a href="{{ '/about' | relative_url }}">About</a>
+  </nav>
 </footer>
