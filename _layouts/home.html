@@ -8,7 +8,7 @@ title: Home
 
 <h1>Latest Posts</h1>
 
-{% for post in recent_posts %}
+{% for post in recent_posts limit:3 %}
   <article>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     <p><small>{{ post.date | date: "%Y-%m-%d" }}</small></p>
