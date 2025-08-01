@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   In search of the whole plot
 baseurl: "/ThePlotWhole" # the subpath of your site, e.g. /blog
-url: "https://Ben10UltimateAlien.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://Inconum.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
