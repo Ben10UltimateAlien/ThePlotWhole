@@ -58,7 +58,7 @@ This show is definetly pulling on my heart strings. Everyone is very sweet and I
 [Zutaboro Reijou wa Ane no Moto Konyakusha ni Dekiai sareru](https://myanimelist.net/anime/59421/Zutaboro_Reijou_wa_Ane_no_Moto_Konyakusha_ni_Dekiai_sareru)
 
 
-[Game Center Shoujo to Ibunka](Kouryuu https://myanimelist.net/anime/59689/Game_Center_Shoujo_to_Ibunka_Kouryuu)
+[Game Center Shoujo to Ibunka Kouryuu](https://myanimelist.net/anime/59689/Game_Center_Shoujo_to_Ibunka_Kouryuu)
 
 
 [Futari Solo Camp](https://myanimelist.net/anime/60665/Futari_Solo_Camp)
@@ -86,6 +86,7 @@ This show is definetly pulling on my heart strings. Everyone is very sweet and I
 **Dropped**
 
 [Nyaight of the Living Cat](https://myanimelist.net/anime/58197/Nyaight_of_the_Living_Cat)
+
 The premise seemed interesting but when I watched the first episode I thought it was pretty boring. Nothing much called my attention and I was just zoning out whole time.
 
 
