@@ -1,12 +1,11 @@
-/* assets/css/custom.css */
+---
+---
+
+@import "minima";
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-size: inherit !important;
   font-weight: inherit !important;
   text-decoration: none !important;
   color: inherit !important;
-}
-
-/* TEST: Turn all paragraphs red */
-p {
-  color: red !important;
 }
