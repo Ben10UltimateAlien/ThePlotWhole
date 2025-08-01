@@ -7,6 +7,9 @@
   align-items: center;
   padding: 1rem 2rem;
   gap: 2rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
 }
 
 .site-title {
@@ -80,10 +83,14 @@
   text-decoration: underline;
 }
 
+body {
+  margin: 0;
+}
+
 body, html {
   margin: 0;
   padding: 0;
-  height: 10%;
+  height: 100%;
 }
 
 main {
