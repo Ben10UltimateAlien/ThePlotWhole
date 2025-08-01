@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to The Plot Whole!"
-date:   2025-07-30 12:31:54 +0100
+date:   2025-07-30
 categories: updates
 pinned: true
 ---
