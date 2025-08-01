@@ -90,3 +90,15 @@ main {
   font-size: 1.1rem;     /* optional: slightly bigger font */
   font-family: monospace; /* or your desired font */
 }
+
+/* Existing styles above */
+
+/* ... your existing styles here ... */
+
+/* Fix for linked headings */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-size: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  color: inherit;
+}
