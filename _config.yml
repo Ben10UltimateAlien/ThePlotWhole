@@ -21,11 +21,9 @@
 title: The Plot Whole
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Inconum's media diary and rant collector
 baseurl: "/ThePlotWhole" # the subpath of your site, e.g. /blog
-url: "https://Ben10UltimateAlien.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://Inconum.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
