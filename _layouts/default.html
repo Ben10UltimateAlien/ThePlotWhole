@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon" />
-  <!-- other head tags -->
 </head>
 <body>
   {% include header.html %}
-
+  
   <main>
     {{ content }}
   </main>
@@ -17,4 +17,3 @@
   {% include footer.html %}
 </body>
 </html>
-
