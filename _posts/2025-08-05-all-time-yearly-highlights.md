@@ -6,7 +6,7 @@ categories: anual
 pinned: false
 ---
 
-This is where I record my personal favourites by season and by year, in reverse chronological order. I will be updating this as time goes on (both for newer and older series).
+This is where I record my personal favourites by season and by year, in reverse chronological order. I will be updating this as time goes on (both for newer and older seasons).
 
 # 2025
 ## Fall
