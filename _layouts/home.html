@@ -1,28 +1,33 @@
 ---
 layout: default
+title: Home
 ---
 
-<section class="recent-posts">
-  <h2>Recent Posts</h2>
-  {% assign unpinned_posts = site.posts | where_exp: "post", "post.pinned != true" %}
-  {% for post in unpinned_posts limit:5 %}
-    <article>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt }}</p>
-    </article>
-  {% endfor %}
-</section>
+{% assign pinned_posts = site.posts | where: "pinned", true %}
+{% assign recent_posts = site.posts | where_exp: "post", "post.pinned != true" %}
 
-<!--              top right bottom left --> 
-<hr style="margin: 3em 0em 1em 0em ; border: none; border-top: 2px solid #ccc;">
-  
-<section class="pinned-posts">
-  <h2>Pinned Posts</h2>
-  {% assign pinned_posts = site.posts | where: "pinned", true %}
-  {% for post in pinned_posts limit:2 %}
+<h1>Latest Posts</h1>
+
+{% for post in recent_posts limit:3 %}
+  <article>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p><small>{{ post.date | date: "%Y-%m-%d" }}</small></p>
+    <p>{{ post.excerpt }}</p>
+    <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
+    <hr>
+  </article>
+{% endfor %}
+
+{% if pinned_posts.size > 0 %}
+  <h1>Pinned Posts</h1>
+
+  {% for post in pinned_posts %}
     <article>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p><small>{{ post.date | date: "%Y-%m-%d" }}</small></p>
       <p>{{ post.excerpt }}</p>
+      <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
+      <hr>
     </article>
   {% endfor %}
-</section>
+{% endif %}

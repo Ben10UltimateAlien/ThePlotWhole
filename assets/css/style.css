@@ -1,8 +1,15 @@
 .site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 2rem;
   gap: 2rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 9999;
 }
 
 .site-title {
@@ -74,6 +81,113 @@
 
 .footer-right a:hover {
   text-decoration: underline;
+}
+
+body {
+  padding-top: 70px; /* Adjust this if your header height changes */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 10%;
+}
+
+main {
+  max-width: 1000px;     /* increase this value to make it wider */
+  margin: 2rem auto;     /* center it horizontally and give vertical spacing */
+  padding: 0 2rem;       /* padding inside so text doesn’t stick to edges */
+  line-height: 1.6;      /* improves readability */
+  font-size: 1.1rem;     /* optional: slightly bigger font */
+  font-family: monospace; /* or your desired font */
+}
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 2rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 9999;
+}
+
+.site-title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.site-title-link {
+  color: black !important;       /* makes the link text black */
+  text-decoration: none !important; /* removes underline */
+  display: flex;
+  align-items: center;
+}
+
+.site-title-link:hover {
+  color: black;                  /* keeps it black on hover */
+  text-decoration: underline;    /* underline on hover */
+}
+
+.site-logo {
+  height: 5px;
+  margin-right: 10px;
+  width: auto;                   /* maintain aspect ratio */
+  max-height: 10px;
+}
+
+.site-nav {
+  margin-left: auto;
+}
+
+.site-nav a {
+  margin-left: 1rem;
+  color: #007acc;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+  padding: 1em 1em 0.1em 0.1em; /* top right bottom left */
+  border-top: 1px solid #ddd;
+  color: #666;
+  flex-wrap: nowrap; /* prevent wrapping */
+}
+
+.footer-left {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.footer-right {
+  text-align: right;
+  flex-shrink: 0;
+  white-space: nowrap; /* prevent link wrapping */
+}
+
+.footer-right a {
+  color: #007acc;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+body {
+  padding-top: 70px; /* Adjust this if your header height changes */
 }
 
 body, html {

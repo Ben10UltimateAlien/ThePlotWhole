@@ -1,23 +1,24 @@
 <header class="site-header">
-  <h1 class="site-title" style="padding: 0em 0em 0em 0.5em;">
+  <h1 class="site-title" style="padding-left: 0.5em;">
     <a href="{{ '/' | relative_url }}" class="site-title-link">
-      <img src="{{ '/images/000_Logo.png' | relative_url }}" alt="Site Logo" class="site-logo" style="height: 40px; width: auto;" >
+      <img src="{{ '/images/000_Logo.png' | relative_url }}" alt="Site Logo" class="site-logo" style="height: 40px; width: auto;">
       {{ site.title }}
     </a>
   </h1>
+
   <nav class="site-nav" style="padding-right: 1rem;">
     <select onchange="if(this.value) window.location.href=this.value">
       <option value="">Categories</option>
       {% assign all_categories = site.categories | sort %}
       {% for category in all_categories %}
-      <option value="{{ '/categories/' | append: category[0] | relative_url }}">
-        {{ category[0] | capitalize }} ({{ category[1].size }})
-      </option>
+        <option value="{{ '/categories/' | append: category[0] | relative_url }}">
+          {{ category[0] | capitalize }} ({{ category[1].size }})
+        </option>
       {% endfor %}
     </select>
-    <a href="{{ '/archive' | relative_url }}">Archive</a>
-    <span> | <span>
-	<a href="{{ '/about' | relative_url }}">About</a>
 
+    <a href="{{ '/archive' | relative_url }}">Archive</a>
+    <span> | </span>
+    <a href="{{ '/about' | relative_url }}">About</a>
   </nav>
 </header>

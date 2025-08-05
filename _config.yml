@@ -21,7 +21,11 @@
 title: The Plot Whole
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
+<<<<<<< HEAD
   Inconum's media diary and rant collector
+=======
+  In search of the whole plot
+>>>>>>> b97ad781a2d057ba94856b84e777b33aceb9e2bd
 baseurl: "/ThePlotWhole" # the subpath of your site, e.g. /blog
 url: "https://Inconum.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -31,6 +35,12 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
+sass:
+  style: compressed
+
+include:
+  - assets/css
 
 # Exclude from processing.
 # The following items will not be processed, by default.
