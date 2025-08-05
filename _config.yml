@@ -21,11 +21,9 @@
 title: The Plot Whole
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-<<<<<<< HEAD
   Inconum's media diary and rant collector
 =======
   In search of the whole plot
->>>>>>> b97ad781a2d057ba94856b84e777b33aceb9e2bd
 baseurl: "/ThePlotWhole" # the subpath of your site, e.g. /blog
 url: "https://Inconum.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
