@@ -5,7 +5,7 @@ date:   2025-08-11 12:00:00 +0100
 categories: rant
 pinned: false
 ---
-# Today I will be talking about [Dead Dead Demons Dededede Destruction](https://myanimelist.net/anime/58883/Dead_Dead_Demons_Dededede_Destruction_ONA), from now shortened to DDDD. I will be discussing characters and plot points, so beware for possible spoilers.
+Today I will be talking about [Dead Dead Demons Dededede Destruction](https://myanimelist.net/anime/58883/Dead_Dead_Demons_Dededede_Destruction_ONA), from now shortened to DDDD. I will be discussing characters and plot points, so beware for possible spoilers.
 <br>
 
 DDDD is based on the [manga from the same name](https://myanimelist.net/manga/70801/Dead_Dead_Demons_Dededede_Destruction), written and drawn by [Inio Asano](https://myanimelist.net/people/2836/Inio_Asano). Even if the name is not immediately familiar to you, you probably have at least heard or seen some of his work online. He is particularly famous for the manga [Oyasumi Punpun](https://myanimelist.net/manga/4632/Oyasumi_Punpun) and [Solanin](https://myanimelist.net/manga/3731/Solanin), both visceral stories about human nature and experience, dealing with themes of love, , growing up and grief. Ultimately they are impactful and sometimes depressing stories that somehow end up conveying a possitive outlook. And when I started reading the manga, soon after it started being released, that's what I thought DDDD was going to be as well. I would like to state that despite having the read first volume of the manga as it was coming out I didn't go back to read the rest. This is purely my thoughts after finishing the anime adaptation.
